@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="perfectproperties.vn.perfectpropertiesproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Splash.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="perfectproperties.vn.perfectpropertiesproject.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sale.SaleActivity" />
+        <activity android:name=".About.AboutActivity" />
+        <activity android:name=".Rent.RentActivity" />
+        <activity android:name=".Sale.DetailSaleActivity" />
+        <activity android:name=".Exchange.ExchangeActivity" />
+        <activity android:name=".News.DetailForNewsActivity" />
+        <activity android:name=".Rent.DetailForRentActivity" />
+        <activity android:name=".Partner.DetailPartnerActivity"></activity>
+    </application>
+
+</manifest>

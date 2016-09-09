@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PerfectPropertiesProject</string>
+    <string name="companny_name">Công ty cổ phần môi giới bất động sản Perfect Property</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="my_account">My Account</string>
+    <string name="news">News</string>
+    <string name="partner">Partner</string>
+    <string name="recruitment">Recruitment</string>
+    <string name="homepage">HomePage</string>
+
+    <string name="trans_duration">50</string>
+</resources>
