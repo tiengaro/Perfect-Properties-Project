@@ -44,6 +44,7 @@ public class HomePageFragment extends Fragment {
         btnAbout=(Button) view.findViewById(R.id.btnAbout);
         btnRent=(Button) view.findViewById(R.id.btnRent);
         btnExchange=(Button) view.findViewById(R.id.btnExchange);
+
     }
 
     private void addEvents(View view) {

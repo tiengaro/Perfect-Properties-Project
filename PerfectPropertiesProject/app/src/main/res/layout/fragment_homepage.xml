@@ -13,31 +13,52 @@
         android:layout_height="match_parent">
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
             android:id="@+id/btnSale"
-            android:text="For Sale"/>
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="For Sale"
+            android:textColor="#F5F5F5"
+            android:textSize="18dp"
+            android:background="@drawable/btn_demo"
+            android:textStyle="bold"/>
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnAbout"
-            android:layout_below="@id/btnSale"
-            android:text="About us"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/btnExchange"
-            android:layout_below="@id/btnAbout"
-            android:text="Exchange"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
             android:id="@+id/btnRent"
-            android:layout_below="@id/btnExchange"
+            android:background="@drawable/btn_demo"
+            android:textColor="#F5F5F5"
+            android:textStyle="bold"
+            android:textSize="18dp"
             android:text="For Rent"/>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="430dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnAbout"
+            android:textColor="#F5F5F5"
+            android:background="@drawable/btn_demo"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="About US"/>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="330dp"
+            android:id="@+id/btnExchange"
+            android:background="@drawable/btn_demo"
+            android:layout_centerHorizontal="true"
+            android:textColor="#F5F5F5"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Exchange"/>
 
     </RelativeLayout>
 </FrameLayout>

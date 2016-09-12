@@ -16,17 +16,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Activity Sale"
-                android:id="@+id/abc"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnDetailSale"
-                android:text="Detail Sale"
-                android:layout_below="@id/abc"/>
+            <ListView
+                android:id="@+id/lvCustomList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
         </RelativeLayout>
 
     </FrameLayout>

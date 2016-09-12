@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="perfectproperties.vn.perfectpropertiesproject">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,7 +31,8 @@
         <activity android:name=".Exchange.ExchangeActivity" />
         <activity android:name=".News.DetailForNewsActivity" />
         <activity android:name=".Rent.DetailForRentActivity" />
-        <activity android:name=".Partner.DetailPartnerActivity"></activity>
+        <activity android:name=".Partner.DetailPartnerActivity" />
+        <activity android:name=".Sale.LocationSaleActivity"></activity>
     </application>
 
 </manifest>

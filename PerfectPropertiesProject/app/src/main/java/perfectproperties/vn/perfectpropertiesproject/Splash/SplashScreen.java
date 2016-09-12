@@ -12,6 +12,7 @@ import perfectproperties.vn.perfectpropertiesproject.R;
 /**
  * Created by lvant on 01/09/2016.
  */
+
 public class SplashScreen extends AppCompatActivity {
 
     protected int splashTime;
@@ -29,12 +30,14 @@ public class SplashScreen extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            //Set wait time 2
             splashTime = 2000;
         }
 
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
+            // Start MainActivity when finish time for
             Intent mainIntent = new Intent(SplashScreen.this, MainActivity.class);
             SplashScreen.this.startActivity(mainIntent);
             SplashScreen.this.finish();
@@ -55,5 +58,4 @@ public class SplashScreen extends AppCompatActivity {
             return null;
         }
     }
-
 }
